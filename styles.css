@@ -41,12 +41,14 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    border-radius: 12px;
-    background: linear-gradient(135deg, #f57308, #fff, rgb(11, 242, 7));
+    border-radius: 2px;
+    
+    background: #222;
+    opacity: 0.1;
   }
   
   ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(135deg, #1a6ad2, #fff, rgb(245, 5, 53));
+    background: #1e3551;
   }
   
   /*  Simillar  */
@@ -815,11 +817,6 @@
     }
   }
   
-  @media (max-width: 991px) {
-    .social-menu ul li a {
-      left: 114px;
-    }
-  }
   
   @media (max-width: 947px) {
     .menu-btn {
@@ -902,6 +899,9 @@
     .services .serv-content .card {
       width: 100%;
     }
+    .social-menu ul{
+      left: 300px;
+    }
   }
   
   @media (max-width: 500px) {
@@ -933,13 +933,23 @@
       font-size: 23px;
       line-height: 38px;
     }
+    .social-menu ul{
+      left: 250px;
+    }
   }
   @media(max-width:390px){
-    .social-menu ul{
-      left: 20%;
-    }
+    
+      .social-menu ul {
+      left: 190px;
+    } 
     footer span a{
       color: wheat;
+    }
+    section{
+      padding: 20px 0;
+    }
+    .icons br{
+      margin-top: 40px;
     }
   }
   
