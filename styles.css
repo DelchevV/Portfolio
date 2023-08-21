@@ -414,11 +414,12 @@
   .skills .skills-content .left .text {
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
   
   .skills .skills-content .left p {
     text-align: justify;
+    margin-bottom: 20px;
   }
   
   .skills .skills-content .left a {
