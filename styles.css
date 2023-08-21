@@ -934,3 +934,12 @@
       line-height: 38px;
     }
   }
+  @media(max-width:390px){
+    .social-menu ul{
+      left: 20%;
+    }
+    footer span a{
+      color: wheat;
+    }
+  }
+  
